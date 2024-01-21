@@ -1,1 +1,23 @@
-**Question Title:** Unique Paths in a Grid\n\n**Description:**\nGiven a grid of size m x n, you can move from a cell to any of its adjacent cells (up, down, left, or right). The objective is to find the number of unique paths from the top-left corner to the bottom-right corner of the grid.\n\n**Sample Input:**\n```\nm = 3\nn = 3\n```\n\n**Sample Output:**\n```\n6\n```\n\n**Test Case 1:**\n```\nm = 2\nn = 2\n```\n\n**Output:**\n```\n2\n```\n\n**Test Case 2:**\n```\nm = 5\nn = 3\n```\n\n**Output:**\n```\n15\n```\n\n**Test Case 3:**\n```\nm = 10\nn = 5\n```\n\n**Output:**\n```\n1024\n```
+## ByteBuddy: Coding Simplified
+
+## Inspiration
+
+In a world where technology is rapidly evolving, coding has become an essential skill. We noticed a gap in educational platforms that offer a user-friendly, interactive learning environment for coding. That's where ByteBuddy comes in. We wanted to create an AI-driven coding companion that could make learning to code accessible, engaging, and fun. Inspired by the struggles we faced while learning to code, ByteBuddy was born to empower the next generation of developers.
+
+## What We Learned
+
+Throughout the journey of building ByteBuddy, we've learned that the best way to learn is by doing. This project not only enhanced our coding skills but also taught us the importance of user experience design, the intricacies of AI implementation in educational tools, and the power of community support in the learning process.
+
+## How We Built It
+
+ByteBuddy was built with a stack of modern technologies. We leveraged TailwindCSS for its utility-first approach to design a responsive and attractive interface. For the AI component, we integrated cutting-edge machine learning models to provide real-time coding assistance and feedback.
+
+The backend is powered by Node.js, ensuring seamless interaction between the users and the AI. We used MongoDB for storing user data, coding exercises, and progress tracking. The entire application is containerized using Docker, making it scalable and easy to deploy.
+
+## Challenges We Faced
+
+One of the biggest challenges was developing an intuitive AI that could cater to a wide range of coding problems without overwhelming the user. Crafting a personalized learning path that adapts to the user's pace was no small feat. Another challenge was ensuring the platform's scalability to handle a growing number of users while maintaining a high level of performance.
+
+## Conclusion
+
+ByteBuddy is not just a project; it's a mission to democratize coding education. It embodies the struggles, learning, and passion of its creators. We're excited to see how it helps aspiring coders around the globe to start their coding journey and write their own success stories.
