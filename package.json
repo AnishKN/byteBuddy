@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@geist-ui/core": "^2.3.8",
-    "@monaco-editor/react": "^4.6.0"
-  }
-}
