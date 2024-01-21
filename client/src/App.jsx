@@ -6,6 +6,11 @@ import Home from "./pages/Home"
 import Insta from "./components/Insta"
 import Playground from './pages/Playground'
 import Firstquestion from "./pages/Firstquestion"
+import QuestionOne from "./pages/Questionaries/QuestionOne"
+import QuestionTwo from "./pages/questionaries/QuestionTwo"
+import QuestionThree from "./pages/questionaries/QuestionThree"
+import QuestionFour from "./pages/questionaries/QuestionFour"
+import QuestionFive from "./pages/questionaries/QuestionFive"
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
             <Route path='Insta' element={<Insta />} />
             <Route path='Playground' element={<Playground />} />
             <Route path='Firstquestion' element={<Firstquestion />} />
+            <Route path='QuestionOne' element={<QuestionOne />} />
+            <Route path='QuestionTwo' element={<QuestionTwo />} />
+            <Route path='QuestionThree' element={<QuestionThree />} />
+            <Route path='QuestionFour' element={<QuestionFour />} />
+            <Route path='QuestionFive' element={<QuestionFive />} />
             <Route path='*' element="404" />
           </Route>
         </Routes>
