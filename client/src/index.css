@@ -5,3 +5,7 @@
 .left::-webkit-scrollbar {
     display: none;
 }
+
+body{
+    font-family: poppins;
+}
