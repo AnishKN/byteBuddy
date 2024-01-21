@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import BotIcon from './BotIcon'
 
 export default function Header() {
   return (
