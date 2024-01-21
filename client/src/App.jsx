@@ -5,6 +5,7 @@ import Layout from './Layout'
 import Home from "./pages/Home"
 import Insta from "./components/Insta"
 import Playground from './pages/Playground'
+import PracticeGround from './pages/PracticeGround'
 import Firstquestion from "./pages/Firstquestion"
 import QuestionOne from "./pages/Questionaries/QuestionOne"
 import QuestionTwo from "./pages/questionaries/QuestionTwo"
@@ -24,6 +25,7 @@ function App() {
             <Route path='Login' element={<Login />} />
             <Route path='Insta' element={<Insta />} />
             <Route path='Playground' element={<Playground />} />
+            <Route path='PracticeGround' element={<PracticeGround />} />
             <Route path='Firstquestion' element={<Firstquestion />} />
             <Route path='QuestionOne' element={<QuestionOne />} />
             <Route path='QuestionTwo' element={<QuestionTwo />} />

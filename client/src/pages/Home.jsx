@@ -16,7 +16,9 @@ function Home() {
               <NavLink to="/questionOne">
                 <button className="inline-flex text-white bg-purple-600 border-0 py-4 px-7 focus:outline-none hover:bg-purple-800 rounded-full text-lg">Start Coding Now! &gt;</button>
               </NavLink>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-4 px-7 focus:outline-none hover:bg-gray-300 rounded-full text-lg">Go To Playground</button>
+              <NavLink to="/practiceGround">
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-4 px-7 focus:outline-none hover:bg-gray-300 rounded-full text-lg">Go To Playground</button>
+              </NavLink>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
