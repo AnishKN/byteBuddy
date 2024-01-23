@@ -51,7 +51,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://bytebuddy-7e1y.onrender.com:4000/login", {
+      const response = await fetch("https://bytebuddy-7e1y.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

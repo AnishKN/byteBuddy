@@ -61,7 +61,7 @@ function Register() {
     //   alert(error);
     // });
     try {
-      const response = await fetch("https://bytebuddy-7e1y.onrender.com:4000/register", {
+      const response = await fetch("https://bytebuddy-7e1y.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

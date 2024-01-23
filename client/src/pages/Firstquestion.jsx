@@ -5,7 +5,7 @@ function Firstquestion() {
     const navigate = useNavigate()
     const handleClick = async (e) => {
         try {
-        const response = await fetch('https://bytebuddy-7e1y.onrender.com:4000/generate_personalised_question', {
+        const response = await fetch('https://bytebuddy-7e1y.onrender.com/generate_personalised_question', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json',
