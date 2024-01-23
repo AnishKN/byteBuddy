@@ -19,7 +19,7 @@ export default function QuestionFive() {
     setLoading(true);
     try {
       const response = await fetch(
-        "http://localhost:4000/generate_personalised_question",
+        "https://bytebuddy-7e1y.onrender.com:4000/generate_personalised_question",
         {
           method: "POST",
           headers: {

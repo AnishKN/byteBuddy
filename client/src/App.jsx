@@ -7,7 +7,7 @@ import Insta from "./components/Insta"
 import Playground from './pages/Playground'
 import PracticeGround from './pages/PracticeGround'
 import Firstquestion from "./pages/Firstquestion"
-import QuestionOne from "./pages/Questionaries/QuestionOne"
+import QuestionOne from "./pages/questionaries/QuestionOne"
 import QuestionTwo from "./pages/questionaries/QuestionTwo"
 import QuestionThree from "./pages/questionaries/QuestionThree"
 import QuestionFour from "./pages/questionaries/QuestionFour"
